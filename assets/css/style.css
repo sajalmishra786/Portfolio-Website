@@ -235,6 +235,23 @@ h5 {
     padding: 5px;
 }
 
+.mobile-nav-toggle i {
+  color: #45505b;
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active #header {
+  left: 0;
+}
+
+.mobile-nav-active .mobile-nav-toggle {
+  color: #fff;
+  background-color: #0CAA41;
+}
+
 /*--------------------------------------------------------------
   # Hero Section
   --------------------------------------------------------------*/
